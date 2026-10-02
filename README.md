@@ -216,11 +216,11 @@ uvicorn app.main:app --reload --port 8000
 
 From `backend/api`:
 
-```bash
+bash
 npm install
 npm run build
 npm run dev   # or npm start after build
-```
+
 
 The API will listen on port `3001` by default.
 
@@ -228,13 +228,13 @@ The API will listen on port `3001` by default.
 
 From `frontend/mobile`:
 
-```bash
+bash
 npm install
 # or yarn
 
 # Make sure API_BASE_URL in src/services/api.ts points to your machine (e.g. http://192.168.x.x:3001)
 npx expo start --tunnel
-```
+
 
 Open the Expo Go app on your phone or use an emulator to load the project.
 
